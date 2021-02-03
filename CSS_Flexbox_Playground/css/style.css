@@ -9,8 +9,8 @@
     padding: 10px;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -20,12 +20,21 @@
     margin: 30px;
     color: #fff;
     font-size: 40px;
+
+    /* flex-grow: 1; */
 }
 
 .i2 {
     height: 200px;
+    flex-basis: 20%;
+    /* flex-grow: 2; */
 }
 
+.i3 {
+    order: -2;
+    flex: 1;
+}
+ 
 .i4 {
-    /* font-size: 90px; */
+    align-self: flex-end;
 }
