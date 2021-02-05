@@ -4,6 +4,7 @@
     background-color: var(--color-Grey-light-2);
     box-shadow: var(--shadow-dark);
     min-height: 50rem;
+    overflow-x: hidden;
 }
 
 .header {
@@ -32,7 +33,6 @@
 
 .hotel-view {
     background-color: #fff;
-    background-color: teal;
     height: 80rem;
 
     flex: 1;
